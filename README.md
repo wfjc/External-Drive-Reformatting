@@ -26,3 +26,7 @@ Run the command and then command prompt will ask if you want to rename. I rename
 <img src="https://i.postimg.cc/jdcLLzq6/Reformatting-external-drive-2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Using the Disk Management Console, we can see that drive B has been reformatted. If we wanted, we could partition that drive further and create a separate area, perhaps for Mac only as APFS instead of exFAT:  <br/>
+<img src="https://i.postimg.cc/7Z43Z5dc/Reformat-drive-2025-10-28-at-09-23-43.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
