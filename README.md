@@ -19,18 +19,19 @@ Project consists of reformatting a USB drive B:/ from FAT32 to exFAT
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Open command prompt, select your drive, mine is 'Store N Go' and reformat using the line 'format b: /fs:exFAT'.
-  I want to convert the file from FAT32 to exFAT....: <br/>
+Open command prompt, select your drive. I changed mine and set it as B:. It is an external USB stick with a default name of 'Store N Go'.
+The USB stick is FAT32, which is an older format style, we will be formatting to the more up to date exFAT as I want a storage device that is suitable for cross-platform OS.
+You can use the GUI of the Disk Management tool in Control Panel, or you can reformat the drive directly in the command prompt using the format command in the way of 'format b: /fs:exFAT' : <br/>
 <img src="https://i.postimg.cc/Dz5yjhDD/reformat-drive-1.png" height="80%" width="80%" alt="Open command ready drive"/>
 <br />
 <br />
-Run the command and then command prompt will ask if you want to rename. I renamed to W Choblet. Now external drive B is reformatted to exFAT!:  <br/>
+Run the command and then command prompt will ask if you want to rename. I renamed to W Choblet Storage, although it decided that was too long of a name, so I settled with W Choblet (my name). Now external drive B is reformatted to exFAT!:  <br/>
 <img src="https://i.postimg.cc/jdcLLzq6/Reformatting-external-drive-2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 
-Using the Disk Management Console, we can see that drive B has been reformatted. If we wanted, we could partition that drive further and create a separate area, perhaps for Mac only as APFS instead of exFAT:  <br/>
+Using the Disk Management Console, we can see that drive B has been reformatted. If we wanted, we could partition that drive further and create a separate area, perhaps for Mac only as APFS instead of exFAT. Though the drive is only 28 odd GB. If this was a large 2TB drive for example, you might want to create multiple partitions. Perhaps you want to boot using Linux off your external drive, you would format an ext4 partition:  <br/>
 <img src="https://i.postimg.cc/7Z43Z5dc/Reformat-drive-2025-10-28-at-09-23-43.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
