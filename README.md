@@ -1,7 +1,7 @@
 <h1>How to reformat an external storage drive</h1>
 
 <h2>Description</h2>
-Project consists of reformatting a USB drive B:/ from FAT32 to exFAT
+Project consists of reformatting a USB drive from FAT32 to exFAT using the command prompt. I check the work with the Disk Defragmentation Tool and also show how the drive can be encrypted for further security.
 <br />
 
 
