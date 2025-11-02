@@ -5,7 +5,7 @@ Project consists of reformatting a USB drive from FAT32 to exFAT using the comma
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>Command Prompt</b> 
 - <b>Format command</b>
